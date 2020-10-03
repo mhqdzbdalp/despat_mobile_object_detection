@@ -1,0 +1,4 @@
+include ':app'
+include ':googleplaydownloaderlibrary'
+include ':openCVLibrary310'
+include ':googleplaylicenselibrary'

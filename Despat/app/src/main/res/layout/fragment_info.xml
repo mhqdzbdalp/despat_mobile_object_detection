@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Exposure" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph_exposure"
+            android:layout_width="match_parent"
+            android:layout_height="200dip" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Exposure Time" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph_exposureTime"
+            android:layout_width="match_parent"
+            android:layout_height="200dip" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Aperture" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph_aperture"
+            android:layout_width="match_parent"
+            android:layout_height="200dip" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="ISO" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph_iso"
+            android:layout_width="match_parent"
+            android:layout_height="200dip" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Temperature [°C]" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="200dip" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Battery" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph_battery"
+            android:layout_width="match_parent"
+            android:layout_height="200dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Free Space [mb]" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph_freeSpace"
+            android:layout_width="match_parent"
+            android:layout_height="200dip" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

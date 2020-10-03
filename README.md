@@ -1,0 +1,1 @@
+an executable APK file can be found in [releases](https://github.com/mhqdzbdalp/despat_mobile_object_detection/releases/tag/release)

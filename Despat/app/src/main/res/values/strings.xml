@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Despat</string>
+    <string name="title_activity_configure">ConfigureActivity</string>
+    <string name="title_activity_settings2">Settings</string>
+    <string name="title_activity_launch">LaunchActivity</string>
+    <string name="title_activity_tour">TourActivity</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="exportAnyway">Export anyway</string>
+
+    <string name="sessionSummary_objects">This dataset consists of %d objects detected in %d images.</string>
+    <string name="sessionSummary_noPoints">No corresponding map points have been selected yet.</string>
+    <string name="sessionSummary_readyForExport">ready for export</string>
+
+    <!-- Tour -->
+
+    <string name="skip">Skip</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="start">Got it</string>
+
+    <string name="grantPermission">grant permission</string>
+    <string name="permissionGranted">permission granted</string>
+    <string name="grantException">grant exception</string>
+    <string name="exceptionGranted">exception granted</string>
+    <string name="notGranted">failed</string>
+
+    <!-- Error Messages -->
+
+    <string name="error_export_emptyDataset">This dataset contains no detected objects. This may be due to an camera error or too short observation time.</string>
+    <string name="error_export_noTransformedCoordinates">This dataset contains no calculated object coordinates. This is possibly an error."</string>
+    <string name="error_export_tooFewHomographyPoints">"This dataset contains less than four different mapped points. Please add %d more so that positions of detected objects can be calculated"</string>
+
+    <string name="recyclerview_empty">"No datasets have been recorded yet"</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_summary_intro">Settings can be overwritten when starting a new recording.</string>
+
+    <string name="pref_title_deviceName">Device Name</string>
+    <string name="pref_summary_deviceName">human readable name to identify this phone: %s</string>
+    <string name="pref_title_resumeAfterReboot">Resume After Reboot</string>
+    <string name="pref_summary_resumeAfterReboot">Continue capturing if the phone crashes and restarts</string>
+    <string name="pref_title_showTooltips">Show Tooltips</string>
+    <string name="pref_summary_showTooltips">Explanations and little tooltips can be hidden</string>
+    <string name="pref_title_workingDirectory">Working Directory</string>
+    <string name="pref_summary_workingDirectory">Where to save logs and output data</string>
+
+    <string name="pref_title_networkFidelity">Detection Precision</string>
+    <string name="pref_summary_networkFidelity">precision: %s</string>
+
+    <string name="pref_title_persistentCamera">Persistent Camera</string>
+    <string name="pref_summary_persistentCamera">
+        Keep the camera active in between captures. Allows shutter intervals shorter than 6s
+        but prevents the device from powering down. Will increase power consumption considerably.
+    </string>
+    <string name="pref_title_legacyCameraController">Legacy camera controller</string>
+    <string name="pref_summary_legacyCameraController">
+        Use the alternative camera controller.
+        This may solve compatibility issues on some older phones.
+    </string>
+    <string name="pref_title_shutterInterval">Shutter interval</string>
+    <string name="pref_summary_shutterInterval">capture image every: %d milliseconds</string>
+
+    <string name="pref_title_phoneHome">Data upload</string>
+    <string name="pref_summary_phoneHome">upload data to the server</string>
+    <string name="pref_title_serverAddress">Server address</string>
+    <string name="pref_summary_serverAddress">%s</string>
+
+    <string name="pref_title_extended">Extended Settings</string>
+    <string name="pref_summary_extended"></string>
+
+    <string name="pref_summary_introExtended">Extended settings</string>
+
+    <string name="pref_title_enableRecognitionService">Enable Object Detection</string>
+    <string name="pref_summary_enableRecognitionService">Run an object detection algorithm on the captured image</string>
+    <string name="pref_title_enableCompressorService">Enable Image Averaging</string>
+    <string name="pref_summary_enableCompressorService">Calculate an averaged preview image of all captures</string>
+    <string name="pref_title_deleteAfterRecognition">Delete After Processing</string>
+    <string name="pref_summary_deleteAfterRecognition">Permanently delete captured images after processing</string>
+
+    <string name="pref_title_cameraDevice">Camera Device</string>
+    <string name="pref_summary_cameraDevice">%s</string>
+    <string name="pref_title_formatJpg">Use JPEGs</string>
+    <string name="pref_summary_formatJpg"></string>
+    <string name="pref_title_formatRaw">Use RAWs</string>
+    <string name="pref_summary_formatRaw"></string>
+    <string name="pref_title_exposureCompensation">Exposure compensation</string>
+    <string name="pref_summary_exposureCompensation">Brightness change for every image: %s</string>
+    <string name="pref_title_secondImageExposureCompensation">Exposure compensation 2nd image</string>
+    <string name="pref_summary_secondImageExposureCompensation">Brightness change for every second image: %s</string>
+    <string name="pref_title_exposureThreshold">Exposure Threshold</string>
+    <string name="pref_summary_exposureThreshold">Exposure value must be below %s to trigger 2nd image capture</string>
+
+    <string name="pref_title_enableCTmode">Enable CT mode</string>
+    <string name="pref_summary_enableCTmode">Apply CT-style preset</string>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_osm">OsmActivity</string>
+    <string name="title_activity_session">SessionActivity</string>
+
+    <!-- Tour -->
+
+    <string name="tour1_box1">Before starting right away I ask you to make yourself familiar with how this app works.</string>
+    <string name="tour1_box2">We\'ll discuss settings for detecting pedestrians and will have a look at postprocessing.</string>
+
+    <!-- Tooltips -->
+
+    <string name="homographypoints_title">Corresponding points</string>
+    <string name="homographypoints_description">
+        To calculate the position of the detected objects, at least four points on the image must be
+        matched to a location on the map. To increase the precision the points should be evenly
+        distributed in the whole image and not concentrated at one spot.
+    </string>
+    <string name="tip_btn_datasets">Tooltip Test</string>
+
+
+</resources>

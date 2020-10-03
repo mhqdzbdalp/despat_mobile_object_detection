@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_list_item">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_tour1_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|bottom|clip_vertical"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_tour1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="despat"
+            android:textColor="@android:color/white"
+            android:background="@color/bg_list_item"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tour1_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tour1_title"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/tour1_box1"
+            android:background="@color/bg_list_item"
+            android:layout_margin="10dp"
+            android:layout_marginTop="0dp"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_tour1_box"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:text="@string/tour1_box2"
+            android:background="@color/bg_list_item"
+            android:layout_margin="10dp"
+            android:layout_marginTop="0dp"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc" />
+
+    </RelativeLayout>
+</RelativeLayout>
